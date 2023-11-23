@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6264d6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: url('fundo2.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    background-color: #c5ce9b;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #267bb5;
+}
+
+footer {
+    background-color: #464646;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #c5ce9b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #267bb5;
+}
+
+.cta {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(175, 16, 16, 0.1);
+}

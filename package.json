@@ -1,0 +1,16 @@
+{
+  "name": "fe-atividade1-main",
+  "version": "1.0.0",
+  "description": "Atividade de alteração CSS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
